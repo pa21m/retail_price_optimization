@@ -1,6 +1,6 @@
 # Retail Price Optimisation
 
-Price optimization involves using historical data to determine the ideal price for a product or service, aiming to maximize profitability while balancing efficient pricing, profit objectives, and customer satisfaction.This project focuses on analysing retail sales data and optimising product pricing strategies using machine learning techniques.
+An end-to-end data science project focused on analysing retail sales data and optimising product pricing strategies using machine learning techniques.
 
 ## Project Overview
 
@@ -38,6 +38,11 @@ source .venv/bin/activate   # Windows: .venv\Scripts\activate
 pip install -r requirements.txt
 ```
 
+## Data
+
+This repo expects the dataset CSV in `data/raw/` (git-ignored).
+See `DATA.md` for download instructions.
+
 ## How to Run
 
 Open:
@@ -60,9 +65,12 @@ data/raw/
 
 **Result:** The project quantifies the projected improvement in total profit under optimised pricing compared to baseline pricing, demonstrating measurable business impact.
 
-**Credits:** 
-- The tutorial reference: “Retail Price Optimization” Kaggle Notebook
-https://www.kaggle.com/code/harshsingh2209/retail-price-optimization/input
+---
 
-- The dataset source on Kaggle:
-https://www.kaggle.com/datasets/suddharshan/retail-price-optimization
+## Credits & References
+
+- **Dataset:** Retail Price Optimization (Kaggle)  
+  https://www.kaggle.com/datasets/suddharshan/retail-price-optimization
+
+- **Tutorial reference:** Kaggle notebook — *Retail Price Optimization* (Harsh Singh)  
+  https://www.kaggle.com/code/harshsingh2209/retail-price-optimization/input
